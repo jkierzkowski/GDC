@@ -10,10 +10,10 @@
     
     ```docker build -t [image_name] .```
 
-# Instructions for opening Genie in the Docker container "neutrino1.1":
+# Instructions for opening Genie in the Docker container:
 
 1.Running the image:
-For basic Docker image configuration, run the Bash script RunDockerNeutrino.sh(Linux) or RunDockerNeutrino.sh(Windows).
+For basic Docker image configuration, run the Bash script RunDockerNeutrino.sh (Linux) or RunDockerNeutrino.sh (Windows).
 IMPORTANT:Directory where the script is launched, becomes a home folder for container. All files in the home folder on your computer correspond to the /opt/Home folder in the container. 
 This means you can add files to the home folder, and they will appear in the /opt/Home folder in the container, and vice versa.
 
