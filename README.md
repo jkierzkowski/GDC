@@ -1,10 +1,14 @@
 # Requirements
 
 **Docker engine** (for Linux) or **docker desktop** (for Windows), more informations are available here -> https://docs.docker.com/engine/install/
-# Downloading the image
-
-On Linux, pull the image with "sudo docker pull jankierzkowski/neutrino_genie" command. 
-On windows system first open docker desktop then in CMD/powershell run same command  "sudo docker pull jankierzkowski/neutrino_genie"
+# Downloading the image or building one
+* Downloading
+  * On Linux, pull the image with "sudo docker pull jankierzkowski/neutrino_genie" command. 
+  * On windows system first open docker desktop then in CMD/powershell run same command  "sudo docker pull jankierzkowski/neutrino_genie"
+* Building an image
+  * download DockerFile from this repository then you can build the image using:
+    
+    ```docker build -t [image_name] .```
 
 # Instructions for opening Genie in the Docker container "neutrino1.1":
 
